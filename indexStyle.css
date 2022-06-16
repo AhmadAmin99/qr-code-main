@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Outfit:wght@100;300;400&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainSection{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(212, 45%, 89%);
+    text-align: center;
+    font-family: 'specimen';
+}
+.mainSection .card{
+    width: 25%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.mainSection .card img{
+    width: 100%;
+    border-radius: 20px;
+}
+.mainSection .card h3{
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 0px 25px;
+
+}
+.mainSection .card p{
+    padding: 0px 25px;
+    margin: 10px 0px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    
+}
+@media (max-width:900px){
+    .mainSection .card{
+        width: 50%;
+    }
+    
+}
+@media (max-width:375px){
+    .mainSection .card{
+        width: 85%;
+    }
+    
+}
